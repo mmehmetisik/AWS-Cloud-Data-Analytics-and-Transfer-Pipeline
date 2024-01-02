@@ -27,14 +27,6 @@ The project includes a set of custom dashboards designed for various user roles,
 - Managerial Dashboard Sample 3: ![Dashboard Sample 3](4.png)
 - Managerial Dashboard Sample 4: ![Dashboard Sample 4](5.png)
 
-## Usage
-
-To deploy this pipeline in your AWS environment:
-
-1. Ensure that you have the necessary AWS services activated.
-2. Set up the services as per the architecture diagram.
-3. Refer to the [writeS3v3.py]([writeS3v3.pyy](https://github.com/mmehmetisik/AWS-Cloud-Data-Analytics-and-Transfer-Pipeline/blob/23f21d92bd4a3c84d127548d6faec61b62990c20/writeS3v3.py))
- script as an example for pushing data to S3 Buckets.
 
 ## Acknowledgments
 
