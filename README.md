@@ -16,7 +16,7 @@ The architecture employs AWS Lambda for compute operations, RDS for database ser
 
 Refer to the AWS architecture diagram in the repository for an overview of the services and data flow:
 
-![AWS Architecture](1.png)
+!["C:\Users\ASUS\Documents\GitHub\AWS-Cloud-Data-Analytics-and-Transfer-Pipeline\1.png"](1.png)
 
 ## Dashboards
 
