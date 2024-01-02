@@ -33,7 +33,7 @@ To deploy this pipeline in your AWS environment:
 
 1. Ensure that you have the necessary AWS services activated.
 2. Set up the services as per the architecture diagram.
-3. Refer to the [writeS3v3.py](scripts/writeS3v3.py)
+3. Refer to the [writeS3v3.py](writeS3v3.pyy)
  script as an example for pushing data to S3 Buckets.
 
 ## Acknowledgments
