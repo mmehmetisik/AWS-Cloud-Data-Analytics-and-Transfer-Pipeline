@@ -1,43 +1,44 @@
 # AWS Cloud Data Analytics and Transfer Pipeline
 
-This repository showcases an end-to-end data analytics and transfer pipeline developed for a continuous operating facility using AWS Cloud infrastructure. The project features automated data processing from generation to visualization in custom dashboards tailored for various managerial levels.
+This repository presents an AWS Cloud-based data analytics and transfer pipeline, designed to automate the entire data journey from the source to the end-point dashboards. It demonstrates a seamless, automated flow of data within an AWS Region (EU-Central-1), facilitating real-time processing and visualization for continuous operation facilities.
+
+## Project Overview
+
+The architecture employs AWS Lambda for compute operations, RDS for database services, and S3 Buckets for data storage and transfer. The final output is presented through tailored dashboards, providing customized views for different management levels.
 
 ## Features
 
-- Automated data capture and processing using AWS Lambda and RDS.
-- Real-time data transfer and storage with AWS S3 Buckets.
-- Customized dashboards for data visualization, adapted for different user roles.
+- Automated data capture with AWS Lambda functions.
+- Data storage and management using AWS RDS and S3 services.
+- Customizable, role-based dashboard visualization for data monitoring.
+
+## Architecture
+
+Refer to the AWS architecture diagram in the repository for an overview of the services and data flow:
+
+![AWS Architecture](1.png)
+
+## Dashboards
+
+The project includes a set of custom dashboards designed for various user roles, showcasing key metrics and data points for efficient management:
+
+- Managerial Dashboard Sample 1: ![Dashboard Sample 1](2.png)
+- Managerial Dashboard Sample 2: ![Dashboard Sample 2](3.png)
+- Managerial Dashboard Sample 3: ![Dashboard Sample 3](4.png)
+- Managerial Dashboard Sample 4: ![Dashboard Sample 4](5.png)
 
 ## Usage
 
-To replicate or utilize this pipeline:
+To deploy this pipeline in your AWS environment:
 
-1. Ensure you have the necessary AWS services enabled (Lambda, RDS, S3, etc.).
-2. Configure the AWS services according to the architecture provided in the `images` folder.
-3. Use the provided scripts and AWS IAM roles to manage data flow and permissions.
-
-For visualizing data:
-
-1. Access the custom dashboards through the URLs provided in the `dashboards` folder.
-2. Follow the instructions in `dashboard_setup.md` to tailor the dashboards to specific managerial roles.
-
-## Contributing
-
-To contribute to this project:
-
-1. Fork the repository.
-2. Create a new feature branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a new Pull Request.
+1. Ensure that you have the necessary AWS services activated.
+2. Set up the services as per the architecture diagram.
+3. Refer to the `writeS3v3.py` script as an example for pushing data to S3 Buckets.
 
 ## Acknowledgments
 
-Special thanks to the team members and contributors who have made this project possible:
-- Nurşah Söğüt
-- Damla Peker
-- Sinan (for guidance and contributions to the project)
+I'd like to extend my gratitude to my colleagues Nurşah Söğüt and Damla Peker for their valuable contributions to this project. Special thanks to Sinan for his guidance and insights that were critical to the success of this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
